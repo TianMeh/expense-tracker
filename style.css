@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+.expenses {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+.site-heading{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.site-heading h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.site-heading h2 {
+    font-size: 35px;
+    padding-top: 5px;
+    font-weight: 400;
+    color: rgb(19, 214, 19);
+}
+.expense-name {
+    display: flex;
+    padding-bottom: 10px;
+}
+.name-input {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+#name-input {
+    width: 100%;
+}
+.expense-date-amount {
+    display: flex;
+}
+.date {
+    width: 50%;
+    display: flex;
+}
+.amount {
+    width: 50%;
+    display: flex;
+}
+.datum-input {
+    margin-left: 5px;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+#date-input {
+    width: 100%;
+}
+.amount-input {
+    margin-left: 5px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+#amount-input {
+    width: 100%;
+}
+.add-expense-button {
+    text-align: center;
+    margin: 20px;
+}
+
+.add-expense-button button {
+    padding: 10px 20px;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: rgb(19, 214, 19);
+    color: white;
+    font-weight: 600;
+}
+
+/* expense-table */
+
+#table1 {
+    border: solid rgb(170, 170, 170) 1px;
+}
+#borderTh {
+    border-left: solid rgb(170, 170, 170) 1px;
+    border-right: solid rgb(170, 170, 170) 1px;
+}
+.expense-table table{
+    width: 100%;
+}
+.expense-table th {
+    width: 300px;
+}
+.expense-table td {
+    background-color: rgb(230, 230, 230);
+    padding-left: 5px;
+    width: 300px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sledilec stroškov</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="expenses">
+            <div class="site-heading">
+                <h1>Sledilec stroškov</h1>
+                <h2>Dodaj strošek:</h2>
+            </div>
+
+            <section class="expense-info-container">
+                <div class="expense-name">
+                    <div class="name">
+                        <h3>Ime:</h3>
+                    </div>
+                    <div class="name-input">
+                        <input type="text" id="name-input">
+                    </div>
+                </div>
+
+                <div class="expense-date-amount">
+                    <div class="date">
+                        <div class="datum">
+                            <h3>Datum:</h3>
+                        </div>
+                        <div class="datum-input">
+                            <input type="text" id="date-input">
+                        </div>
+                    </div>
+                    <div class="amount">
+                        <div class="znesek">
+                            <h3>Znesek:</h3>
+                        </div>
+                        <div class="amount-input">
+                            <input type="text" id="amount-input">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="add-expense-button"><button onclick = "pushData()">Dodaj strošek</button></div>
+            <div class="expense-table">
+                <table id="table1">
+                    <tr>
+                        <th>Ime</th>
+                        <th id="borderTh">Datum</th>
+                        <th>Znesek</th>
+                    </tr>
+                </table>
+                <table class="remove" id="table2">
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
